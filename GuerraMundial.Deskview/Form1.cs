@@ -19,10 +19,29 @@ namespace GuerraMundial.Deskview
 
         private void Form1_Load(object sender, EventArgs e)
         {
-             Form tela = new Form();
-             tela.ShowDialog();
-             timer1.Enabled = true;
-            
+            Form2 tela = new Form2();
+            tela.ShowDialog();
+            timer1.Enabled = true;
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            this.Opacity += 10;
+            if (this.Opacity == 100)
+            {
+                timer1.Enabled = false;
+            }
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

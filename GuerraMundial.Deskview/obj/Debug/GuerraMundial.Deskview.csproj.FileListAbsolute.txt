@@ -7,3 +7,5 @@ C:\Users\a1704397\Documents\GitHub\trabalho\GuerraMundial.Deskview\obj\Debug\Gue
 C:\Users\a1704397\Documents\GitHub\trabalho\GuerraMundial.Deskview\obj\Debug\GuerraMundial.Deskview.exe
 C:\Users\a1704397\Documents\GitHub\trabalho\GuerraMundial.Deskview\obj\Debug\GuerraMundial.Deskview.pdb
 C:\Users\a1704397\Documents\GitHub\trabalho\GuerraMundial.Deskview\obj\Debug\GuerraMundial.Deskview.Form1.resources
+C:\Users\a1704397\Documents\GitHub\trabalho\GuerraMundial.Deskview\obj\Debug\GuerraMundial.Deskview.csprojResolveAssemblyReference.cache
+C:\Users\a1704397\Documents\GitHub\trabalho\GuerraMundial.Deskview\obj\Debug\GuerraMundial.Deskview.Form2.resources
