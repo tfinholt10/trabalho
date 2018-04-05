@@ -1,0 +1,9 @@
+C:\Users\a1704397\Documents\GitHub\trabalho\GuerraMundial.Deskview\bin\Debug\GuerraMundial.Deskview.exe.config
+C:\Users\a1704397\Documents\GitHub\trabalho\GuerraMundial.Deskview\bin\Debug\GuerraMundial.Deskview.exe
+C:\Users\a1704397\Documents\GitHub\trabalho\GuerraMundial.Deskview\bin\Debug\GuerraMundial.Deskview.pdb
+C:\Users\a1704397\Documents\GitHub\trabalho\GuerraMundial.Deskview\obj\Debug\GuerraMundial.Deskview.Properties.Resources.resources
+C:\Users\a1704397\Documents\GitHub\trabalho\GuerraMundial.Deskview\obj\Debug\GuerraMundial.Deskview.csproj.GenerateResource.Cache
+C:\Users\a1704397\Documents\GitHub\trabalho\GuerraMundial.Deskview\obj\Debug\GuerraMundial.Deskview.csproj.CoreCompileInputs.cache
+C:\Users\a1704397\Documents\GitHub\trabalho\GuerraMundial.Deskview\obj\Debug\GuerraMundial.Deskview.exe
+C:\Users\a1704397\Documents\GitHub\trabalho\GuerraMundial.Deskview\obj\Debug\GuerraMundial.Deskview.pdb
+C:\Users\a1704397\Documents\GitHub\trabalho\GuerraMundial.Deskview\obj\Debug\GuerraMundial.Deskview.Form1.resources

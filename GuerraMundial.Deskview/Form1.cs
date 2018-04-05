@@ -16,5 +16,13 @@ namespace GuerraMundial.Deskview
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+             Form tela = new Form();
+             tela.ShowDialog();
+             timer1.Enabled = true;
+            
+        }
     }
 }
