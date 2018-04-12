@@ -203,7 +203,6 @@
         #endregion
 
         private System.Windows.Forms.Timer timer1;
-<<<<<<< HEAD
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox q03opcao03;
@@ -214,8 +213,6 @@
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
-=======
->>>>>>> 1a100a7747a4012cfeee7207c2be853c802e5306
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel1;
     }
