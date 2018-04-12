@@ -46,35 +46,60 @@ namespace GuerraMundial.Deskview
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void qver01_Click(object sender, EventArgs e)
         {
-            if (radioButton2.Checked == true)
-            {
-
-                q02opcao02.ForeColor = Color.Green;
-            }
-            else if (radioButton1.Checked == true)
-            {
-                radioButton2.ForeColor = Color.Green;
-                radioButton1.ForeColor = Color.Red;
-
-            }
-            else if (radioButton3.Checked == true)
-            {
-                radioButton2.ForeColor = Color.Green;
-                radioButton3.ForeColor = Color.Red;
-
-            }
-            else if (radioButton4.Checked == true)
-            {
-                radioButton2.ForeColor = Color.Green;
-                radioButton4.ForeColor = Color.Red;
-
-            }
+           
             
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void qver01_Click_1(object sender, EventArgs e)
+        {
+            if (p1c2.Checked == true)
+            {
+                p1c2.ForeColor = Color.Green;
+                q01opcao02.ForeColor = Color.Green;
+               
+            }
+            else if (p1c1.Checked == true)
+            {
+                p1c2.ForeColor = Color.Green;
+                p1c1.ForeColor = Color.Red;
+                q01opcao02.ForeColor = Color.Green;
+                textBox2.ForeColor = Color.Red;
+                
+
+            }
+            else if (p1c3.Checked == true)
+            {
+                p1c2.ForeColor = Color.Green;
+                p1c3.ForeColor = Color.Red;
+                q01opcao02.ForeColor = Color.Green;
+                q01opcao03.ForeColor = Color.Red;
+                
+
+            }
+            else if (p1c4.Checked == true)
+            {
+                p1c2.ForeColor = Color.Green;
+                p1c4.ForeColor = Color.Red;
+                q01opcao02.ForeColor = Color.Green;
+                q01opcao04.ForeColor = Color.Red;
+                
+
+            }
+        }
+
+        private void panel1_Paint_1(object sender, PaintEventArgs e)
         {
 
         }

@@ -31,19 +31,18 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.q03opcao03 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.q01opcao01 = new System.Windows.Forms.TextBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.q04opcao04 = new System.Windows.Forms.TextBox();
-            this.q02opcao02 = new System.Windows.Forms.TextBox();
-            this.groupBox1.SuspendLayout();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.q01opcao02 = new System.Windows.Forms.TextBox();
+            this.q01opcao03 = new System.Windows.Forms.TextBox();
+            this.q01opcao04 = new System.Windows.Forms.TextBox();
+            this.p1c1 = new System.Windows.Forms.RadioButton();
+            this.p1c2 = new System.Windows.Forms.RadioButton();
+            this.p1c3 = new System.Windows.Forms.RadioButton();
+            this.p1c4 = new System.Windows.Forms.RadioButton();
+            this.qver01 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,149 +50,168 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // groupBox1
-            // 
-            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.Controls.Add(this.panel1);
-            this.groupBox1.Location = new System.Drawing.Point(12, 47);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(798, 360);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
-            // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.q03opcao03);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Controls.Add(this.qver01);
+            this.panel1.Controls.Add(this.q01opcao04);
+            this.panel1.Controls.Add(this.p1c4);
+            this.panel1.Controls.Add(this.p1c3);
+            this.panel1.Controls.Add(this.p1c2);
+            this.panel1.Controls.Add(this.p1c1);
+            this.panel1.Controls.Add(this.q01opcao03);
+            this.panel1.Controls.Add(this.q01opcao02);
+            this.panel1.Controls.Add(this.textBox2);
             this.panel1.Controls.Add(this.q01opcao01);
-            this.panel1.Controls.Add(this.radioButton1);
-            this.panel1.Controls.Add(this.radioButton2);
-            this.panel1.Controls.Add(this.radioButton3);
-            this.panel1.Controls.Add(this.radioButton4);
-            this.panel1.Controls.Add(this.q04opcao04);
-            this.panel1.Controls.Add(this.q02opcao02);
-            this.panel1.Location = new System.Drawing.Point(6, 19);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Location = new System.Drawing.Point(12, -1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(786, 356);
-            this.panel1.TabIndex = 9;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.panel1.Size = new System.Drawing.Size(1159, 485);
+            this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint_1);
             // 
-            // q03opcao03
+            // label1
             // 
-            this.q03opcao03.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.q03opcao03.Location = new System.Drawing.Point(43, 197);
-            this.q03opcao03.Name = "q03opcao03";
-            this.q03opcao03.Size = new System.Drawing.Size(466, 26);
-            this.q03opcao03.TabIndex = 8;
-            this.q03opcao03.Text = "  O processo de globalização econômica e a formação da União Europeia no final do" +
-    " século XIX.";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(3, 39);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(699, 29);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "1. Qual das alternativas abaixo apresenta uma das principais causas da Primeira G" +
-    "uerra Mundial?";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // button1
-            // 
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Location = new System.Drawing.Point(681, 259);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(102, 76);
-            this.button1.TabIndex = 1;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.Font = new System.Drawing.Font("Brush Script MT", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(49, 10);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(99, 29);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Pergunta 1";
             // 
             // q01opcao01
             // 
-            this.q01opcao01.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.q01opcao01.Location = new System.Drawing.Point(45, 84);
+            this.q01opcao01.BackColor = System.Drawing.Color.White;
+            this.q01opcao01.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.q01opcao01.Font = new System.Drawing.Font("Brush Script MT", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.q01opcao01.Location = new System.Drawing.Point(36, 48);
+            this.q01opcao01.Margin = new System.Windows.Forms.Padding(0);
             this.q01opcao01.Name = "q01opcao01";
-            this.q01opcao01.Size = new System.Drawing.Size(422, 26);
-            this.q01opcao01.TabIndex = 7;
-            this.q01opcao01.Text = " A união política, econômica e militar entre Alemanha e Grã-Bretanha.";
+            this.q01opcao01.Size = new System.Drawing.Size(811, 30);
+            this.q01opcao01.TabIndex = 1;
+            this.q01opcao01.Text = "1. Qual das alternativas abaixo apresenta uma das principais causas da Primeira G" +
+    "uerra Mundial?";
             // 
-            // radioButton1
+            // textBox2
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(15, 90);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(34, 17);
-            this.radioButton1.TabIndex = 1;
-            this.radioButton1.Text = "a)";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("Brush Script MT", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(86, 150);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(0);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(713, 30);
+            this.textBox2.TabIndex = 2;
+            this.textBox2.Text = "A influência dos Estados Unidos na política econômica europeia no início do sécul" +
+    "o XX.";
             // 
-            // radioButton2
+            // q01opcao02
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(15, 141);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(34, 17);
-            this.radioButton2.TabIndex = 2;
-            this.radioButton2.Text = "b)";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.q01opcao02.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.q01opcao02.Font = new System.Drawing.Font("Brush Script MT", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.q01opcao02.Location = new System.Drawing.Point(78, 238);
+            this.q01opcao02.Name = "q01opcao02";
+            this.q01opcao02.Size = new System.Drawing.Size(1029, 30);
+            this.q01opcao02.TabIndex = 3;
+            this.q01opcao02.Text = "O descontentamento da Itália e Alemanha com a divisão de territórios na África e " +
+    "Ásia no processo de neocolonismo (século XIX).";
             // 
-            // radioButton3
+            // q01opcao03
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(15, 206);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(34, 17);
-            this.radioButton3.TabIndex = 3;
-            this.radioButton3.Text = "c)";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.q01opcao03.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.q01opcao03.Font = new System.Drawing.Font("Brush Script MT", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.q01opcao03.Location = new System.Drawing.Point(78, 335);
+            this.q01opcao03.Margin = new System.Windows.Forms.Padding(0);
+            this.q01opcao03.Name = "q01opcao03";
+            this.q01opcao03.Size = new System.Drawing.Size(682, 30);
+            this.q01opcao03.TabIndex = 4;
+            this.q01opcao03.Text = "A união política, econômica e militar entre Alemanha e Grã-Bretanha.";
             // 
-            // radioButton4
+            // q01opcao04
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(15, 259);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(34, 17);
-            this.radioButton4.TabIndex = 4;
-            this.radioButton4.Text = "d)";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.q01opcao04.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.q01opcao04.Font = new System.Drawing.Font("Brush Script MT", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.q01opcao04.Location = new System.Drawing.Point(86, 428);
+            this.q01opcao04.Margin = new System.Windows.Forms.Padding(0);
+            this.q01opcao04.Name = "q01opcao04";
+            this.q01opcao04.Size = new System.Drawing.Size(775, 30);
+            this.q01opcao04.TabIndex = 5;
+            this.q01opcao04.Text = "O processo de globalização econômica e a formação da União Europeia no final do s" +
+    "éculo XIX.";
             // 
-            // q04opcao04
+            // p1c1
             // 
-            this.q04opcao04.BackColor = System.Drawing.Color.Silver;
-            this.q04opcao04.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.q04opcao04.Location = new System.Drawing.Point(43, 253);
-            this.q04opcao04.Name = "q04opcao04";
-            this.q04opcao04.Size = new System.Drawing.Size(611, 26);
-            this.q04opcao04.TabIndex = 5;
-            this.q04opcao04.Text = " A influência dos Estados Unidos na política econômica europeia no início do sécu" +
-    "lo XX.";
+            this.p1c1.AutoSize = true;
+            this.p1c1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.p1c1.Location = new System.Drawing.Point(38, 150);
+            this.p1c1.Name = "p1c1";
+            this.p1c1.Size = new System.Drawing.Size(38, 24);
+            this.p1c1.TabIndex = 6;
+            this.p1c1.TabStop = true;
+            this.p1c1.Text = "a)";
+            this.p1c1.UseVisualStyleBackColor = true;
             // 
-            // q02opcao02
+            // p1c2
             // 
-            this.q02opcao02.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.q02opcao02.Location = new System.Drawing.Point(45, 120);
-            this.q02opcao02.Multiline = true;
-            this.q02opcao02.Name = "q02opcao02";
-            this.q02opcao02.Size = new System.Drawing.Size(433, 67);
-            this.q02opcao02.TabIndex = 6;
-            this.q02opcao02.Text = "  O descontentamento da Itália e Alemanha com a divisão de territórios na África " +
-    "e Ásia no processo de Neocolonialismo (século XIX).";
+            this.p1c2.AutoSize = true;
+            this.p1c2.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.p1c2.Location = new System.Drawing.Point(37, 238);
+            this.p1c2.Name = "p1c2";
+            this.p1c2.Size = new System.Drawing.Size(39, 24);
+            this.p1c2.TabIndex = 7;
+            this.p1c2.TabStop = true;
+            this.p1c2.Text = "b)";
+            this.p1c2.UseVisualStyleBackColor = true;
+            // 
+            // p1c3
+            // 
+            this.p1c3.AutoSize = true;
+            this.p1c3.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.p1c3.Location = new System.Drawing.Point(36, 335);
+            this.p1c3.Name = "p1c3";
+            this.p1c3.Size = new System.Drawing.Size(38, 24);
+            this.p1c3.TabIndex = 8;
+            this.p1c3.TabStop = true;
+            this.p1c3.Text = "c)";
+            this.p1c3.UseVisualStyleBackColor = true;
+            this.p1c3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
+            // 
+            // p1c4
+            // 
+            this.p1c4.AutoSize = true;
+            this.p1c4.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.p1c4.Location = new System.Drawing.Point(36, 428);
+            this.p1c4.Name = "p1c4";
+            this.p1c4.Size = new System.Drawing.Size(39, 24);
+            this.p1c4.TabIndex = 9;
+            this.p1c4.TabStop = true;
+            this.p1c4.Text = "d)";
+            this.p1c4.UseVisualStyleBackColor = true;
+            // 
+            // qver01
+            // 
+            this.qver01.BackColor = System.Drawing.Color.White;
+            this.qver01.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("qver01.BackgroundImage")));
+            this.qver01.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.qver01.Location = new System.Drawing.Point(944, 381);
+            this.qver01.Name = "qver01";
+            this.qver01.Size = new System.Drawing.Size(94, 77);
+            this.qver01.TabIndex = 10;
+            this.qver01.UseVisualStyleBackColor = false;
+            this.qver01.Click += new System.EventHandler(this.qver01_Click_1);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(855, 495);
-            this.Controls.Add(this.groupBox1);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1183, 485);
+            this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.groupBox1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -203,18 +221,18 @@
         #endregion
 
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox q03opcao03;
-        private System.Windows.Forms.TextBox q01opcao01;
-        private System.Windows.Forms.TextBox q02opcao02;
-        private System.Windows.Forms.TextBox q04opcao04;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.RadioButton p1c4;
+        private System.Windows.Forms.RadioButton p1c3;
+        private System.Windows.Forms.RadioButton p1c2;
+        private System.Windows.Forms.RadioButton p1c1;
+        private System.Windows.Forms.TextBox q01opcao04;
+        private System.Windows.Forms.TextBox q01opcao03;
+        private System.Windows.Forms.TextBox q01opcao02;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox q01opcao01;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button qver01;
     }
 }
 
